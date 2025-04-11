@@ -1195,7 +1195,7 @@ async function main() {
     }
     // fs.writeFileSync("tokens.json", JSON.stringify(newAuthData, null, 2));
     await sleep(3);
-    console.log(`=============${new Date().toLocaleString()} | Hoàn thành tất cả tài khoản | Chờ ${settings.TIME_SLEEP} phút=============`.magenta);
+    console.log(`=============${new Date().toLocaleString()} | Selesaikan semua akun | Tunggu ${settings.TIME_SLEEP} menit=============`.magenta);
     showBanner();
     await sleep(settings.TIME_SLEEP * 60);
   }
