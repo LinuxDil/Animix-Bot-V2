@@ -2,7 +2,7 @@ const axios = require("axios");
 const { log } = require("./utils"); // Menyesuaikan path sesuai kebutuhan
 const settings = require("./config/config");
 
-const urlChecking = "https://pro-api.animix.tech";
+const urlChecking = "https://raw.githubusercontent.com/LinuxDil/APIs-checking/refs/heads/main/endpoints.json";
 
 async function checkBaseUrl() {
   console.log("Memeriksa API...".blue);
