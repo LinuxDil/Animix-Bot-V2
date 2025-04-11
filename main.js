@@ -66,7 +66,7 @@ class ClientAPI {
       return this.session_user_agents[this.session_name];
     }
 
-    console.log(`[Tài khoản ${this.accountIndex + 1}] Tạo user agent...`.blue);
+    console.log(`[Tài khoản ${this.accountIndex + 1}] Membuat user agent...`.blue);
     const newUserAgent = this.#get_random_user_agent();
     this.session_user_agents[this.session_name] = newUserAgent;
     this.#save_session_data(this.session_user_agents);
