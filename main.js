@@ -466,7 +466,7 @@ class ClientAPI {
           await sleep(1);
         }
       } else {
-        this.log("you don't have any couple to indehoy 😢💔.", "warning");
+        this.log("you don't have any couple to indehoy geboy 😢💔.", "warning");
         break;
       }
     }
